@@ -1,0 +1,13 @@
+Package: wordchecker
+Title: Analyze text based on positive and negative words
+Version: 0.0.0.9000
+Authors@R: 
+    person("Hanna", "Wieslander", , "hanna.wieslander@ki.se", role = c("aut", "cre"))
+Description: Identifies positive and negative words in a text by comparing them with predefined word lists. Calculates the ratio between positive and negative words and provides the absolute number of words in each category.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Depends: 
+    R (>= 3.5)
+LazyData: true
