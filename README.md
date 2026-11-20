@@ -15,7 +15,7 @@ wordchecker is an R package that identifies positive and negative words in a tex
 library(wordchecker)
 
 # Read and preprocess a text file
-words <- read_text("Example_negative.txt")
+words <- read_text(system.file("testdata", "Example_negative.txt", package = "wordchecker"))
 
 # Find positive and negative words
 match_words(words, positive_words)
